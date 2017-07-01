@@ -1,0 +1,35 @@
+
+	@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+	body{
+	  color: #777;
+	  background: #4CAF50;
+	}
+	.simpleForm{
+	  margin: 150px 0;
+	  width:400px;
+	  height:auto;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  background-color: white;
+	    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	  font-smoothing: antialiased;
+  	  text-rendering: optimizeLegibility;
+	  font-family: "Roboto", Helvetica, Arial, sans-serif;
+	  vertical-align:
+	}
+	h1 {
+	}
+	input,button{
+	  width: 320px;
+	  height: 40px;
+	}
+	input[type="text"],input[type="email"],input[type="password"],input[type="date"],button[type="submit"],textarea
+	{
+	  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+	  padding: 10px;
+	}
+	button[type="submit"]
+	{
+	  background-color: #00ad31;
+	  color:white;
+	}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form submit successfully</title>
+    <script src="C:\Users\user\Desktop\websource\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+    <script src="C:\Users\user\Desktop\websource\angular.min.js"></script>
+    <script type="C:\Users\user\Desktop\websource\jquery\jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="C:\Users\user\Desktop\websource\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+    <script type="text/javascript">
+      var myVal=setInterval(myTimer, 1000);
+      function myTimer(){
+        var i = document.getElementById("time");
+        i.innerHTML=parseInt(i.innerHTML)-1;
+        if(i.innerHTML=="1"){
+          window.location.href="index.html";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <br><br>
+    <div class="container">
+      <div class="alert alert-success">
+        <h1>Form submit sucessfully</h1>
+        <p>We will approach you shortly</p>
+        <br/>
+        <p>This page will be redirect in <strong><span id="time">10</span> seconds</strong></p>
+      </div>
+    </div>
+  </body>
+</html>

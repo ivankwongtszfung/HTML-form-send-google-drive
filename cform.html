@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Contect Form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="cform.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="gsend.js"></script>
+</head>
+<body>
+
+	<center class='formBox'>
+
+	<form name='simpleForm' class='simpleForm' method='post'>
+	<h1>Simple Form</h1>
+	<p id='namef'><input id='name' name='username' type='text' placeholder='Full Name' autofocus required></p>
+	<p id='pwdf'><input id='pwd' name='email' type='email' placeholder='Email' required></p>
+	<p id='cpwdf'><input id='cpwd' name='company' type='text' placeholder='company name' required></p>
+	<p id='dobf'><input id='dob' name='dob' type='date' value="2017-06-01" required></p>
+	<p><textarea style='width: 320px; height: 150px;' placeholder='Please type the message here...'></textarea></p>
+	<button type="submit" id="postForm">Submit</button>
+	</form>
+	</center>
+
+</body>
+</html>
